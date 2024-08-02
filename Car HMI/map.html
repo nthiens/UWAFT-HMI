@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="icons">
+            <div class="icon-logo" id="home"><img src="home-white.svg" alt="" class="icon"></div>
+            <div class="icon-logo" id="map"><img src="map-black.svg" alt="" class="icon"></div>
+            <div class="icon-logo" id="camera"><img src="camera-black.svg" alt="" class="icon"></div>
+            <div class="icon-logo" id="parking"><img src="parking-black.svg" alt="" class="icon"></div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-inner">
+            <div id="point_cloud" class="stat"><img src="lidar.webp" alt=""></div>
+            <div class="stat" id="lights"> 
+                <div class="traffic_light">
+                    <div id="red"></div>
+                    <div id="yellow"></div>
+                    <div id="green"></div>
+                </div>
+                <div class="lights-right"><h2>Turn</h2>
+                    <h3>Right</h3><img src="right-arrow.svg" alt="" id="right-arrow"></div>
+            </div>
+            <div class="stat" id="distance">
+                <div class="distance-left">
+                    <h2>Distance <br> Ahead</h2><h3>100m</h3>
+                </div>
+                <img src="distance.svg" alt="" id="distance_svg">
+            </div>
+        </div>
+    </div>
+
+    <script src="point_cloud.js"></script>
+    
+</body>
+</html>

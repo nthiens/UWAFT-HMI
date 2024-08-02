@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="hmi"></div>
+
+    <div class="alert"><h3>Keep your eyes on the road!</h3><h3>Pull over if you are tired</h3></div>
+    <div class="sidebar">
+        <div class="icons">
+            <div class="icon-logo" id="home"><img src="home-white.svg" alt="" class="icon"></div>
+            <div class="icon-logo" id="map"><img src="map-black.svg" alt="" class="icon"></div>
+            <div class="icon-logo" id="camera"><img src="camera-black.svg" alt="" class="icon"></div>
+            <div class="icon-logo" id="parking"><img src="parking-black.svg" alt="" class="icon"></div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-inner">
+            <div id="car">
+                <div class="fwd"></div>
+                <div class="rwd"></div>
+                <img src="lyriq.png" alt="" id="lyriq">
+            </div>
+            <div class="stat" id="clock"><h2>Current <br> Time</h2><h3></h3></div>
+            <div class="stat" id="outside-temp"><h2>Outside <br> Temperature</h2><h3></h3></div>
+            <div class="stat" id="aqi"><h2>Air Quality <br> Index</h2><h3></h3></div>
+            <div class="stat" id="battery"><h2>Vehicle <br> Battery</h2><h3>57%</h3></div>
+            <div class="stat" id="batt-temp"><h2>Battery <br> Temperature</h2><h3>100°C</h3></div>
+            <div class="stat" id="eng-temp"><h2>Engine <br> Temperature</h2><h3>56°C</h3></div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<!-- <script src="script.js"></script> -->
