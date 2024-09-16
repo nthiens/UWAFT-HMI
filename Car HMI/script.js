@@ -129,10 +129,10 @@ document.querySelector('#home').onclick = function() {
         const homeElement = document.querySelector('#home img');
         homeElement.src = "home-white.svg";
 
-        const cameraLogo = document.getElementById("camera");
-        cameraLogo.style.backgroundColor = 'white'
-        const cameraElement = document.querySelector("#camera img")
-        cameraElement.src = "camera-black.svg"
+        // const cameraLogo = document.getElementById("camera");
+        // cameraLogo.style.backgroundColor = 'white'
+        // const cameraElement = document.querySelector("#camera img")
+        // cameraElement.src = "camera-black.svg"
 
         const parkingLogo = document.getElementById("parking");
         parkingLogo.style.backgroundColor = 'white'
@@ -356,10 +356,10 @@ document.querySelector('#map').onclick = function() {
         const homeElement = document.querySelector('#home img');
         homeElement.src = "home-black.svg";
 
-        const cameraLogo = document.getElementById("camera");
-        cameraLogo.style.backgroundColor = 'white'
-        const cameraElement = document.querySelector("#camera img")
-        cameraElement.src = "camera-black.svg"
+        // const cameraLogo = document.getElementById("camera");
+        // cameraLogo.style.backgroundColor = 'white'
+        // const cameraElement = document.querySelector("#camera img")
+        // cameraElement.src = "camera-black.svg"
 
         const parkingLogo = document.getElementById("parking");
         parkingLogo.style.backgroundColor = 'white'
@@ -488,10 +488,10 @@ document.querySelector('#parking').onclick = function() {
         const homeElement = document.querySelector('#home img');
         homeElement.src = "home-black.svg";
 
-        const cameraLogo = document.getElementById("camera");
-        cameraLogo.style.backgroundColor = 'white'
-        const cameraElement = document.querySelector("#camera img")
-        cameraElement.src = "camera-black.svg"
+        // const cameraLogo = document.getElementById("camera");
+        // cameraLogo.style.backgroundColor = 'white'
+        // const cameraElement = document.querySelector("#camera img")
+        // cameraElement.src = "camera-black.svg"
 
         const parkingLogo = document.getElementById("parking");
         if (window.getComputedStyle(parkingLogo).backgroundColor == 'rgb(49, 49, 49)') {
